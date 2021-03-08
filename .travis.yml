@@ -1,5 +1,4 @@
 language: python
-# os: windows
 os: linux
 dist: xenial
 
