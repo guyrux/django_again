@@ -32,6 +32,7 @@ DEBUG = config('DEBUG', cast=bool)
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 # ALLOWED_HOSTS = ['django-again.herokuapp.com']
 
+AUTH_USER_MODEL = 'base.User'
 
 # Application definition
 

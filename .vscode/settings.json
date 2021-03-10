@@ -6,5 +6,14 @@
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,
-    "python.testing.pytestEnabled": true
+    "python.testing.pytestEnabled": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "pypro.sqlite",
+            "database": "db.sqlite3"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
 }
